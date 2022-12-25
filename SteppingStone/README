@@ -1,0 +1,19 @@
+# -- Usage --
+0. Dependecies
+game2dBoard: pip3 install game2dboard
+tkinter: pip install tk
+
+1. play.py
+# define initial configuration
+# change board dimension
+Line8: BOARD_LENGTH [define the number of blocks in the 2D-array game board;]
+Line20 & Line21: define initial configurations [where to put stone "1" in the 2D array] 
+# "board" variable in the script is a list of lists; Do NOT use slicing method in ndarray, like board[i, j]!
+
+2. stepping_stone_solver.ipynb
+# a program to solve any configuration
+# outcome: 
+# (1) identify the largest number for a certain initial configuration;
+# (2) plot the final pattern to get the largest number in the 2D-array game board.
+
+3. enjoy!
